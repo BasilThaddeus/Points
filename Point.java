@@ -28,6 +28,6 @@ public class Point {
     }
 
     public boolean isSame(Point p2) {
-        return true;
+        return (p2.x == this.x && p2.y == this.y);
     }
 }
